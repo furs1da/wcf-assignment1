@@ -23,7 +23,7 @@ namespace Assignment1Service
 
             int limit = (int)Math.Floor(Math.Sqrt(primeNumber));
             
-            for(int i = 1; i < limit; i++)
+            for(int i = 3; i < limit; i++)
             {
                 if (primeNumber % i == 0)
                     return "Not a prime number";
