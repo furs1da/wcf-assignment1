@@ -11,7 +11,7 @@ List of functions:
 5. [Sort 5 numbers](#sort-5-number)
 6. Exit
 
-### [Folder structure](#folder-structure)
+### [Folder structure](#folder-structure-)
 
 ### <a id="prime-number">1. Prime Number</a> <br />
 
@@ -38,6 +38,6 @@ List of functions:
 
 
 
-### <a id="folder-structure">Folder structure</a> <br />
+### <a id="folder-structure-">Folder structure</a> <br />
 ![folder_structure](https://user-images.githubusercontent.com/45331164/196057522-aa2044ca-1f02-467a-a832-f61d112bd974.png)
 
