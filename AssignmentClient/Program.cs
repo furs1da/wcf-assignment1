@@ -21,10 +21,20 @@ namespace AssignmentClient
 
             PRIME_NUMBER_MESSAGE = "Please enter number:",
             PRIME_NUMBER_RESULT = "Result is: ",
+            
             SUM_NUMBER_MESSAGE = "Please enter number:",
             SUM_NUMBER_RESULT = "Result is: ",
+            
             REVERSE_STRING_MESSAGE = "Please enter number:",
-            REVERSE_STRING_RESULT = "Result is: ";
+            REVERSE_STRING_RESULT = "Result is: ",
+            
+            PRINT_HTML_TAG_MESSAGE = "Please enter tag:",
+            PRINT_HTML_DATA_RESULT = "Please enter data:",
+            PRINT_HTML_RESULT = "Result is: ",
+
+            SORT5_MESSAGE = "Please enter number:",
+            SORT5_RESULT = "Result is: ",
+            SOTRING_TYPE_MESSAGE = "Please enter select sorting type (Enter 1 - for ascending sorting or Enter anything else for descending sorting): ";
 
         static void Main(string[] args)
         {
@@ -53,10 +63,10 @@ namespace AssignmentClient
                             ReverseString(client);
                             break;
                     case "4":
-                        
+                            PrintHTMLTags(client);
                             break;
                     case "5":
-                        
+                            Sort5(client);
                             break;
                     case "6":
 
@@ -152,6 +162,73 @@ namespace AssignmentClient
            Console.WriteLine(REVERSE_STRING_RESULT + result);
            Console.WriteLine();
            Console.WriteLine();        
+        }
+
+        public static void PrintHTMLTags(AssignmentService1Client client)
+        {
+            Console.WriteLine();
+            Console.WriteLine(PRINT_HTML_TAG_MESSAGE);
+            string tag = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine(PRINT_HTML_DATA_RESULT);
+            string data = Console.ReadLine();
+
+            string result = "";
+
+            result = client.PrintHTMLTag(tag, data);
+
+            Console.WriteLine();
+            Console.WriteLine(PRINT_HTML_RESULT + result);
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+
+
+        public static void Sort5(AssignmentService1Client client)
+        {
+            List<int> numberList = new List<int>();
+
+            int inputNumber = 0;
+            int[] result = new int[5];
+            string sortingType = "";
+
+
+            Console.WriteLine(SOTRING_TYPE_MESSAGE);
+            sortingType = Console.ReadLine();
+
+            if (sortingType == "1")
+                sortingType = "ascending";
+            else
+                sortingType = "descending";
+
+            while (numberList.Count() != 5)
+            {
+                try
+                {
+                    Console.WriteLine();
+                    Console.WriteLine(SORT5_MESSAGE);
+                    inputNumber = Convert.ToInt32(Console.ReadLine());
+
+                    numberList.Add(inputNumber);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error is: " + ex.Message);
+                }
+            }
+
+            result = client.Sort5Number(sortingType, numberList.ToArray());
+
+            string resultString = "";
+
+            foreach(int item in result)
+            {
+                resultString += item.ToString() + ", ";
+            }
+            resultString = resultString.Substring(0, resultString.Length - 1);
+            Console.WriteLine(SORT5_RESULT + resultString);
+
         }
     }
 }
