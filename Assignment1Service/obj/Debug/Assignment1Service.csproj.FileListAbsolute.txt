@@ -1,0 +1,7 @@
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\obj\Debug\Assignment1Service.csproj.AssemblyReference.cache
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\obj\Debug\Assignment1Service.csproj.CoreCompileInputs.cache
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\bin\Assignment1Service.dll.config
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\bin\Assignment1Service.dll
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\bin\Assignment1Service.pdb
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\obj\Debug\Assignment1Service.dll
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\Assignment1Service\obj\Debug\Assignment1Service.pdb

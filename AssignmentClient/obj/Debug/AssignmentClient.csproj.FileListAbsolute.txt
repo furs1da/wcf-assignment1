@@ -1,0 +1,8 @@
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\bin\Debug\AssignmentClient.exe.config
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\bin\Debug\AssignmentClient.exe
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\bin\Debug\AssignmentClient.pdb
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\obj\Debug\AssignmentClient.csproj.AssemblyReference.cache
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\obj\Debug\AssignmentClient.csproj.SuggestedBindingRedirects.cache
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\obj\Debug\AssignmentClient.csproj.CoreCompileInputs.cache
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\obj\Debug\AssignmentClient.exe
+D:\College\5th semester\PROG3170 - Programming Distributed App\Assignment 1\wcf-assignment1\AssignmentClient\obj\Debug\AssignmentClient.pdb

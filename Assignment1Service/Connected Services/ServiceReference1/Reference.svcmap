@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="7a3d9bb7-abec-4d0d-b708-7f342c026072" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50011/AssignmentService1.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AssignmentService1.disco" MetadataType="Disco" ID="b0d381b4-850f-4e7d-a77c-10f352501fa1" SourceId="1" SourceUrl="http://localhost:50011/AssignmentService1.svc?disco" />
+    <MetadataFile FileName="AssignmentService1.xsd" MetadataType="Schema" ID="152238f1-4632-4145-be4f-d193c6c4d0dc" SourceId="1" SourceUrl="http://localhost:50011/AssignmentService1.svc?xsd=xsd0" />
+    <MetadataFile FileName="AssignmentService11.xsd" MetadataType="Schema" ID="d134b8c9-650d-4a49-a3fd-537cfad67ea2" SourceId="1" SourceUrl="http://localhost:50011/AssignmentService1.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="cbc9ab1b-467d-43e7-ab83-b83eba889490" SourceId="1" SourceUrl="http://localhost:50011/AssignmentService1.svc?wsdl" />
+    <MetadataFile FileName="AssignmentService12.xsd" MetadataType="Schema" ID="40aeef5b-0ed5-4941-85af-cbcc4b4c4551" SourceId="1" SourceUrl="http://localhost:50011/AssignmentService1.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
