@@ -11,7 +11,7 @@ List of functions:
 5. [Sort 5 numbers](#sort-5-number)
 6. Exit
 
-### Folder structure
+### [Folder structure](#folder-structure)
 
 ### <a id="prime-number">1. Prime Number</a> <br />
 
