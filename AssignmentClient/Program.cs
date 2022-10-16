@@ -22,7 +22,9 @@ namespace AssignmentClient
             PRIME_NUMBER_MESSAGE = "Please enter number:",
             PRIME_NUMBER_RESULT = "Result is: ",
             SUM_NUMBER_MESSAGE = "Please enter number:",
-            SUM_NUMBER_RESULT = "Result is: ";
+            SUM_NUMBER_RESULT = "Result is: ",
+            REVERSE_STRING_MESSAGE = "Please enter number:",
+            REVERSE_STRING_RESULT = "Result is: ";
 
         static void Main(string[] args)
         {
@@ -48,7 +50,7 @@ namespace AssignmentClient
                             SumOfDigits(client);    
                             break;
                     case "3":
-                        
+                            ReverseString(client);
                             break;
                     case "4":
                         
@@ -136,7 +138,20 @@ namespace AssignmentClient
                     Console.WriteLine("Error is: " + ex.Message);
                 }
             }
+        }
 
+        public static void ReverseString(AssignmentService1Client client)
+        {
+           Console.WriteLine();
+           Console.WriteLine(REVERSE_STRING_MESSAGE);
+           string result = Console.ReadLine();
+
+           result = client.ReverseString(result);
+
+           Console.WriteLine();
+           Console.WriteLine(REVERSE_STRING_RESULT + result);
+           Console.WriteLine();
+           Console.WriteLine();        
         }
     }
 }

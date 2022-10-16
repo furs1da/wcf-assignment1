@@ -47,8 +47,8 @@ namespace Assignment1Service
             char[] charArray = initialString.ToCharArray();
 
             Array.Reverse(charArray);
-
-            return charArray.ToString();
+           
+            return new string(charArray);
         }
         public string PrintHTMLTag(string tag, string data)
         {
